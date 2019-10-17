@@ -17,10 +17,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 # Import view functions from trips app.
-from trips.views import hello_world, home
+from trips.views import hello_world, home, post_detail
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^hello/$', hello_world),
     url(r'^$', home),
+    url(r'^post/(?P<pk>\d+)/$', post_detail, name='post_detail'),
 ]
