@@ -1,6 +1,6 @@
 # misdj-mysite
-生成 2019 年的 WW,  work week, list
+在目录(venv) leanneshendeMacBook-Air:mysite leanneshen$ 下运行 git remote -v
+如下图
 
 ![Step1](img/1_mysite.png)
 
-- 先啟動虛擬環境
