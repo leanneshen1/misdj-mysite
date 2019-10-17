@@ -11,7 +11,7 @@
 2. 在目录(venv) (venv) leanneshendeMacBook-Air:misdj005-master leanneshen$ 下运行 git remote -v
 
 
-![Step1](img/2_.png)
+
 
 
 
